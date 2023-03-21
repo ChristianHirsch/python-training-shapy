@@ -1,0 +1,16 @@
+name: shapy-env
+
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - python==3.10
+  - pandas
+  - mkdocs
+  - mkdocstrings
+  - mkdocstrings-python
+  - pip
+  - pip:
+      - openweathermapy
+      - C:\path\to\project\package

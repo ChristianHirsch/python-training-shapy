@@ -1,0 +1,18 @@
+site_name: Shape Documentation Site
+
+theme:
+  name: "readthedocs"
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          selection:
+            docstring_style: sphinx
+
+nav:
+  - Rectangle docs: index.md
+  - tutorial.md
+  - how-to-guides.md
+  - reference.md
+  - explanation.md
